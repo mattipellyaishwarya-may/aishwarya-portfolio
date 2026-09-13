@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Aishwarya | One Person, Many Worlds</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap');
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--blue:#bfdff2;--lav:#d8c7f2;--pink:#f2c9d6;--cream:#fff9f2;--ink:#334e68;--dark:#263b52}
+html{scroll-behavior:smooth}
+body{font-family:'DM Sans',sans-serif;color:var(--ink);background:var(--cream);line-height:1.7}
+.nav{height:74px;display:flex;align-items:center;justify-content:space-between;padding:0 8%;position:sticky;top:0;z-index:10;background:rgba(255,249,242,.9);backdrop-filter:blur(12px);border-bottom:1px solid #334e6812}
+.logo{font:700 30px 'Playfair Display';color:var(--dark);text-decoration:none}.nav nav{display:flex;gap:28px}.nav a:not(.logo){font-size:13px;font-weight:600;color:var(--ink);text-decoration:none}
+.hero{min-height:calc(100vh - 74px);display:grid;grid-template-columns:1fr 1fr;align-items:center;padding:60px 9%;overflow:hidden}
+.eyebrow,.label{font-size:11px;letter-spacing:2.5px;font-weight:700;color:#65748b}
+h1,h2{font-family:'Playfair Display';color:var(--dark);line-height:1.08}
+h1{font-size:clamp(60px,8vw,105px);margin:16px 0 24px}h1 span,h2 em{color:#6f91b1}
+.hero-text{font-size:19px;max-width:550px;margin-bottom:30px}.button{display:inline-block;background:var(--dark);color:#fff;padding:12px 22px;border-radius:30px;text-decoration:none;font-weight:700;font-size:13px}
+.hero-art{height:480px;position:relative}.blob{position:absolute;border-radius:48% 52% 60% 40%/48% 40% 60% 52%}.one{width:320px;height:360px;background:var(--blue);right:15%;top:8%;transform:rotate(18deg)}.two{width:215px;height:235px;background:var(--lav);right:3%;bottom:6%;transform:rotate(-20deg)}.star{position:absolute;right:20%;top:16%;font-size:65px;color:#fff}.orbit{position:absolute;width:390px;height:165px;border:2px dashed #334e684d;border-radius:50%;right:0;top:29%;transform:rotate(-25deg)}.card-note{position:absolute;right:21%;bottom:18%;width:155px;padding:20px;background:#fff;border-radius:18px;box-shadow:0 18px 40px #334e681f;transform:rotate(5deg);display:flex;align-items:center;gap:10px}.card-note b{font:42px 'Playfair Display';color:#6f91b1}.card-note small{line-height:1.25}
+section{padding:100px 9%}.about{background:var(--blue)}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:75px;margin-top:35px}h2{font-size:clamp(42px,5vw,68px)}.about-text{font-size:17px}.about-text p+p{margin-top:18px}
+.worlds h2{margin:15px 0 42px}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.tile{padding:28px;border-radius:24px;min-height:215px;transition:.25s}.tile:hover{transform:translateY(-6px);box-shadow:0 18px 35px #334e6817}.blue{background:var(--blue)}.lav{background:var(--lav)}.pink{background:var(--pink)}.warm{background:#f5eadc}.icon{font-size:27px;margin-bottom:14px}.tile h3{font:600 26px 'Playfair Display';color:var(--dark);margin-bottom:7px}.tile p{font-size:13px}
+.beliefs{background:var(--lav)}.belief-box{max-width:950px;margin:30px auto 0;text-align:center;padding:60px 8%;background:#ffffff8c;border-radius:34px}.quote{font:90px Georgia;line-height:.7;color:#8e78b4}.belief-box h2{margin:12px 0 23px}.belief-box p{max-width:720px;margin:auto;font-size:16px}
+.closing{text-align:center;background:var(--pink)}.closing h2{margin:15px 0}.closing p{font-size:17px}
+footer{padding:27px 9%;display:flex;justify-content:space-between;background:var(--dark);color:#dbe7f2;font-size:12px}
+@media(max-width:800px){.nav{padding:0 6%}.nav nav{gap:13px}.nav nav a{font-size:11px}.hero{grid-template-columns:1fr;padding:55px 7% 20px}.hero-art{height:320px}.one{width:230px;height:260px;right:19%}.two{width:150px;height:170px}.orbit{width:280px;height:120px;right:0}.card-note{right:22%;bottom:10%}section{padding:75px 7%}.about-grid{grid-template-columns:1fr;gap:30px}.cards{grid-template-columns:1fr}.belief-box{padding:45px 7%}footer{padding:25px 7%;flex-direction:column;gap:8px}}
+</style>
+</head>
+<body>
+<header class="nav"><a class="logo" href="#home">A.</a><nav><a href="#about">About</a><a href="#worlds">My Worlds</a><a href="#beliefs">Beliefs</a></nav></header>
+
+<section class="hero" id="home">
+<div><p class="eyebrow">WELCOME TO MY LITTLE UNIVERSE ✦</p><h1>I'm <span>Aishwarya.</span></h1><p class="hero-text">A CLAT aspirant, creator, dreamer, and someone who refuses to fit into just one box.</p><a class="button" href="#about">Get to know me ↓</a></div>
+<div class="hero-art"><div class="blob one"></div><div class="blob two"></div><div class="star">✦</div><div class="orbit"></div><div class="card-note"><b>17</b><small>years of<br>becoming me</small></div></div>
+</section>
+
+<section class="about" id="about"><p class="label">01 / ABOUT ME</p><div class="about-grid"><h2>One person,<br><em>many worlds.</em></h2><div class="about-text"><p>I'm Aishwarya, a 17-year-old CLAT aspirant who somehow keeps finding new things to be curious about.</p><p>I love creating with my hands, designing things, telling stories, experimenting with technology, and learning whatever catches my attention. Somewhere between studying for CLAT and chasing creative ideas, I'm building a life that feels completely my own.</p></div></div></section>
+
+<section class="worlds" id="worlds"><p class="label">02 / MY WORLDS</p><h2>Things I love <em>creating.</em></h2><div class="cards">
+<article class="tile blue"><div class="icon">✎</div><h3>Art & Fashion</h3><p>Sketching outfits, designing clothes, accessories, normal sketches and chalk-piece art.</p></article>
+<article class="tile lav"><div class="icon">🧶</div><h3>Craft & Crochet</h3><p>Making things from scratch, experimenting with crafts, and turning ideas into something real.</p></article>
+<article class="tile pink"><div class="icon">⌘</div><h3>Tech & Web</h3><p>Building websites, exploring computers, and learning how technology can become a creative tool.</p></article>
+<article class="tile warm"><div class="icon">✦</div><h3>Stories & Films</h3><p>Story writing, editing, photography, and dreams of creating short films.</p></article>
+<article class="tile blue"><div class="icon">♡</div><h3>Little Details</h3><p>Accessories, visuals, aesthetics and all the tiny details that make an idea feel like mine.</p></article>
+<article class="tile lav"><div class="icon">⚖</div><h3>Law & Learning</h3><p>Preparing for CLAT and exploring ideas, people, law and the world around me.</p></article>
+</div></section>
+
+<section class="beliefs" id="beliefs"><p class="label">03 / WHAT I BELIEVE</p><div class="belief-box"><div class="quote">“</div><h2>Freedom to think.<br>Freedom to become.</h2><p>I believe in equality, feminism, independence, and thinking for myself. I value the ideas and courage of great people more than blindly following political labels. I want to keep learning, questioning, creating and living life on my own terms.</p></div></section>
+
+<section class="closing"><p class="eyebrow">STILL BECOMING ✦</p><h2>There are probably<br><em>more worlds</em> to discover.</h2><p>And I'm perfectly okay with that.</p></section>
+
+<footer><span>Made with curiosity by Aishwarya ✦</span><span>© 2026</span></footer>
+</body>
+</html>
